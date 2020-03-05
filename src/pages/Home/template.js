@@ -1,3 +1,9 @@
+import request from "../../helpers/request"
+import auth from "../../api/auth"
+
+window.auth = auth
+window.request = request
+
 export default {
   data(){
     return {}
