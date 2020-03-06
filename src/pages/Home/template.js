@@ -1,6 +1,8 @@
 import request from "../../helpers/request"
 import auth from "../../api/auth"
+import blog from "../../api/blog"
 
+window.blog = blog
 window.auth = auth
 window.request = request
 
