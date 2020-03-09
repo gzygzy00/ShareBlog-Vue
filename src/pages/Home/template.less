@@ -1,5 +1,36 @@
-@import "../../assets/base.less";
+@import "../../assets/common.less";
 
 #home {
-  background-color: @themeColor;
+  ul > li {
+    margin-top: 20px;
+    border: 1px solid green;
+  }
+
+  .blog-item {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  figure {
+    border: 1px solid blue;
+
+    img {
+      padding: 20px;
+      border: 1px solid indianred;
+    }
+  }
+
+  .blog-info {
+    border: 1px solid black;
+  }
+
+  .blog-head {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
+  }
+
+  .blog-body {
+    margin-top: 6px;
+  }
 }

@@ -1,7 +1,58 @@
 <template>
   <div id="home">
-    <el-button type="primary" @click="clickTest2">home</el-button>
-    <el-button @click="clickTest1">默认按钮</el-button>
+    <ul class="blog-list">
+      <li>
+        <div class="blog-item">
+          <figure>
+            <img src="" alt="">
+            <figcaption>name</figcaption>
+          </figure>
+          <div class="blog-info">
+            <div class="blog-head">
+              <h3>标题</h3>
+              <span>n天前</span>
+            </div>
+            <p class="blog-body">
+              博客内容
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="blog-item">
+          <figure>
+            <img src="" alt="">
+            <figcaption>name</figcaption>
+          </figure>
+          <div class="blog-info">
+            <div class="blog-head">
+              <h3>标题</h3>
+              <span>n天前</span>
+            </div>
+            <p class="blog-body">
+              博客内容
+            </p>
+          </div>
+        </div>
+      </li>
+      <li>
+        <div class="blog-item">
+          <figure>
+            <img src="" alt="">
+            <figcaption>name</figcaption>
+          </figure>
+          <div class="blog-info">
+            <div class="blog-head">
+              <h3>标题</h3>
+              <span>n天前</span>
+            </div>
+            <p class="blog-body">
+              博客内容
+            </p>
+          </div>
+        </div>
+      </li>
+    </ul>
   </div>
 </template>
 
